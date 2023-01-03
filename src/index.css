@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  height: -100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.row .center {
+  align-items: center;
+}
+.col-1 {
+  flex-basis: 100%;
+}
+.col-2 {
+  flex-basis: 100%;
+}
+@media screen and (min-width: 800px) {
+  .col-1 {
+    flex: 1;
+  }
+  .col-2 {
+    flex: 2;
+  }
+}
+.block {
+  background-color: #bee8f7;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+/* my line add */
+.block .col-2 .heads {
+  justify-content: left;
+  text-align: left;
+  float: left;
+  align-items: center;
+  margin-right: 50%;
+  margin-top: -50%;
+}
