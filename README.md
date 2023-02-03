@@ -5,7 +5,7 @@
 1. Create react app
     1. npx create-react-app
     2. remove extra files
-2.  Create wesite layout
+2.  Create website layout
     1. add Header, main and Basket component
     2. style component  
 3.  Create Main Component

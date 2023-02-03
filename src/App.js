@@ -4,11 +4,11 @@ import Basket from './components/Basket';
 import data from './data';
 
 function App() {
-  const { products } = data;
+  const { products } = data; // deconstuct data
   return ( 
-    <div className='row'>
+    <div className=''>
       <Header />
-      <div>
+      <div class='row'>
         <Main products={products}/>
         <Basket />
       </div>
