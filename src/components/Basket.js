@@ -20,7 +20,7 @@ export default function Basket(props) {
                          </button>
                       </div>
                       <div className="col-1 text-right">
-                          {item.qty} * ${item.price.toFixed(2)}
+                          {item.qty} * ${itemsPrice.toFixed(2)}
                       </div>
                   </div>   
                 ))}

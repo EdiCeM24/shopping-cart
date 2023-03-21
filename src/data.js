@@ -2,21 +2,21 @@ const data = {
     products: [
         {
             id: '1',
-            name: 'Mackbook',
+            name: 'Puppy',
             price: 1400,
-            image: 'https://pisum.photos/id/180/2400/1600',
+            image: 'https://picsum.photos/id/237/200/300',
         },
         {
             id: '2',
-            name: 'Old Car',
+            name: 'Computer',
             price: 2400,
-            image: 'https://pisum.photos/id/111/4400/2656',
+            image: 'https://picsum.photos/id/6/367/267',
         },
         {
             id: '3',
             name: 'W Shoes',
             price: 1000,
-            image: './images/shoes.jpg',
+            image: 'https://picsum.photos/id/21/367/267',
         },
     ],
 };
