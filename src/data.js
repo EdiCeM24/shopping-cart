@@ -16,7 +16,7 @@ const data = {
             id: '3',
             name: 'W Shoes',
             price: 1000,
-            image: 'https://pisum.photos/id/21/3008/2008',
+            image: './images/shoes.jpg',
         },
     ],
 };
