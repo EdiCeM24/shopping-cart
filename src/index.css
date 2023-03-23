@@ -26,11 +26,11 @@ button {
 }
 button.add {
   background-color: rgb(3, 117, 117);
-  width: 1.6rem;
+  width: 1.5rem;
 }
 button.remove {
   background-color: #f04040;
-  width: 1.6rem;
+  width: 1.5rem;
 }
 .p-1 {
   padding: 1rem;
