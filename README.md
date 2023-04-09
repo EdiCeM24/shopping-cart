@@ -31,5 +31,5 @@
     2. push code to github
     3. npm install gh-pages --save-dev
     4. package.json "homepage": "https://github_name.github.io/webapp_name",
-    5. add deployment script: "predeploy": "npm run build", "deploy": gh-pages -d build",
+    5. add deployment script: "predeploy": "npm run build", "deploy": "gh-pages -d build",
     6. npm run deploy.

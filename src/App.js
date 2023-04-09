@@ -58,7 +58,7 @@ function App() {
     /*cartItems.length */
     <div>
       <Header countCartItems={cartItemsCount} />
-      <div class='row'>
+      <div className='row'>
         <Main 
            cartItems={cartItems} 
            onAdd={onAdd} 
